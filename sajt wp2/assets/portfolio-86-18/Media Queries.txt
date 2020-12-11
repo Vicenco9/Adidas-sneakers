@@ -1,0 +1,290 @@
+@media (max-width:1200px){
+    #main #glavniTekst h1{
+        font-size: 150px;
+    }
+
+    #main #glavniTekst2 span:first-child{
+        padding-top: 150px;
+    }
+
+    #main #glavniTekst3 h1{
+        display: none;
+    }
+
+    #aboutme #desni-blok h2{
+        padding-bottom: 20px;
+    }
+
+    #aboutme #desni-blok p{
+        font-size: 18px;
+    }
+
+    #aboutme #desni-blok #slika0{
+        top: 50px;
+    }
+
+    #aboutme #my-skills{
+        width : 90%;
+    }
+
+    #futer #say-hello form .special{
+        width: 50%;
+    }
+
+    #futer #say-hello form #area{
+        width: 50%;
+    }
+
+    #futer #say-hello form #dugme1{
+        width: 15%;
+        padding: 15px 0px;
+    }
+
+    #futer #say-hello #linkovi{
+        width: 80%;
+    }
+}
+@media (max-width:992px){
+
+    #main #glavniTekst2 span:first-child{
+        padding-top: 300px;
+    }
+
+    #main #glavniTekst2 span{
+        font-size: 30px;
+        padding: 5px 0px;
+    }
+
+    #main #glavniTekst h1{
+        font-size: 130px;
+        margin-top: 150px;
+    }
+
+    #aboutme #desni-blok h2{
+        font-size: 50px;
+    }
+
+    #aboutme #desni-blok p{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    #futer #say-hello h2{
+        font-size: 70px;
+    }
+
+    #futer #say-hello p{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+
+    .flex-container3 #logo{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+
+    .flex-container3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flex-container3 ul{
+        display: block;
+        margin: 0px auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #main{
+        width: 100%;
+    }
+    #zaglavlje nav ul li a{
+        font-size: 18px;
+    }
+    #zaglavlje nav ul li{
+        margin-left: 15px;
+    }
+    #main .flex-container #glavniTekst h1{
+        font-size: 120px;
+    }
+    #glavniTekst{
+        left:30px;
+        top:0px;
+    }
+    #glavniTekst2{
+        display: none;
+    }
+    #glavniTekst2media{
+        position: relative;
+        top:20px;
+        left: 10px;
+        width:400px;
+    }
+    #glavniTekst2media p{
+        font-size: 30px;
+        color:white;
+        opacity: 0.5;
+        letter-spacing: 3px; 
+        display: block;
+        font-weight:100;
+    }
+    
+    #glavniTekst3{
+        left:260px;
+        top:130px;
+    }
+    #menu-social{
+        left:-10px;
+    }
+    #levi-blok img{
+        left:-45px;
+        top:0px;
+    }
+    #aboutme .flex-container2 #desni-blok{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #aboutme .flex-container2 #desni-blok div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #aboutme .flex-container2 #desni-blok div p{
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    
+    
+    #my-skills{
+        width:80%;
+    }
+    #project-photo img{
+        transform: none;
+        width:350px;
+    }
+    #project-photo img:hover{
+        transform: none;
+        margin-right: 0px;
+    }
+    
+    #project-text p{
+        margin: 0px auto;
+    }
+    
+   #my-projects .flex-container4{
+        width: 40%;
+        margin: 5% 0%;
+    }
+
+    #futer #say-hello form #dugme1{
+        width: 30%;
+    }
+
+    #futer #say-hello #linkovi{
+        width: 100%;
+    }
+
+    
+}
+@media(max-width:480px){
+   
+    #logo{
+        top:180px;
+        display: none;
+    }
+    #glavniTekst2media{
+        top:60px;
+        left:px;
+    }
+    #main .flex-container #glavniTekst{
+        left: 0;
+        margin-bottom: 5%;
+    }
+
+
+    #zaglavlje .flex-container3 nav{
+        position: fixed;
+        top: 0px;
+        left: -25px;
+        width: 110%;
+        background-color: #ccc;
+        z-index: ;
+    }
+
+    #zaglavlje .flex-container3 nav ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #zaglavlje .flex-container3 nav ul li{
+        margin: 10px 0px;
+    }
+
+    #zaglavlje .flex-container3 nav ul li a{
+        font-size: 15px;
+    }
+
+    #main .flex-container #glavniTekst h1{
+        font-size: 90px;
+    }
+
+    #main .flex-container #glavniTekst2media p{
+        font-size: 20px;
+    }
+
+    #main #glavniTekst2media p{
+        font-size: 5px;
+    }
+
+    #main #menu-social{
+        left: -50px;
+    }
+
+    #main #menu-social a{
+        font-size: 15px;
+    }
+
+    #aboutme .flex-container2 #desni-blok div h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #aboutme .flex-container2 #desni-blok div h2 label{
+        border-bottom: none;
+    }
+
+    #my-projects .flex-container4{
+        width: 80%;
+        margin: 50px 0px;
+    }
+
+    #futer #say-hello form .special{
+        width: 80%;
+    }
+
+    #futer #say-hello form #area{
+        width: 70%;
+    }
+
+    #futer #say-hello form #dugme1{
+        width: 50%;
+    }
+
+    #futer #say-hello #linkovi{
+        flex-direction: column;
+    }
+}
